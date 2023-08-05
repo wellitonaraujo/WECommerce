@@ -8,11 +8,12 @@ import React from 'react';
 
 import { SafeAreaView, StyleSheet } from 'react-native';
 import Produtcs from './src/screens/Products';
+import ProductDetails from './src/screens/ProductDetails';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <Produtcs />
+      <ProductDetails />
     </SafeAreaView>
   );
 }
